@@ -1,0 +1,11 @@
+ {
+    "name": "Anti Facebook Tracker",
+    "version": "0.0.0",
+    "description": "Blocks Facebook tracking events",
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": true
+    },
+    "permissions":["webRequest", "webRequestBlocking", "<all_urls>" ],
+    "manifest_version": 2
+}
